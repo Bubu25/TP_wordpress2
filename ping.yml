@@ -1,6 +1,6 @@
 ---
 
-- name: test ping coucou
+- name: test ping coucou11
   hosts: wordpress
   tasks:
     - name: ping
