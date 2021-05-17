@@ -1,6 +1,6 @@
 ---
 - name: Install MySQL
-  package:
+    package:
     name: "{{ item }}"
     state: present
   loop:
@@ -47,3 +47,6 @@
     src: templates/mysql/my.cnf.j2
     dest: /root/.my.cnf
   when: mysql_new_root_pass.changed
+
+
+  ....
