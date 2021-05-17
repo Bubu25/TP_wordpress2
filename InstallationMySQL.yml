@@ -1,8 +1,8 @@
 ---
 - name: Install MySQL
   package:
-    name: "{{ item }}"
-    state: present
+   name: "{{ item }}"
+   state: present
   loop:
     - mysql-server
     - python3-mysqldb
