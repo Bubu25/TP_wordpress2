@@ -1,8 +1,8 @@
 ---
 
-- name: test ping
+- name: test ping coucou
   hosts: wordpress
   tasks:
     - name: ping
-      ping: 
+      ping:
 ...
