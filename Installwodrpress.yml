@@ -1,13 +1,14 @@
 ---
-- name: Installation wordpress
+
+- name: Installation Wordpress
   become: true
   hosts: wordpress
   tasks:
-
+# PHP
     - name: Add the ondrej PHP PPA
-    apt_repository:
-      repo:'ppa:ondrej/php'
-    ignore_errors: true
+      apt_repository:
+        repo: 'ppa:ondrej/php'
+      ignore_errors: true
 
     - name: Install PHP
       package:
