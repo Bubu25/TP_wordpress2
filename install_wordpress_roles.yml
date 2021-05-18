@@ -1,6 +1,6 @@
 --- 
 
-- hosts: wordpess
+- hosts: wordpress
   become: true
   roles:
     - role: wp.prerequis
