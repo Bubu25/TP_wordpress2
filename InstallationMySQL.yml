@@ -89,11 +89,11 @@
       notify:restart nginx
 
 #handlers
-   handlers:
-     - name: restart nginx
-       service:
-         name:nginx
-         state: restarted
+  handlers:
+   - name: restart nginx
+     service:
+      name: nginx
+      state: restarted
 
 
 
