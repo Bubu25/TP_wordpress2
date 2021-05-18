@@ -8,3 +8,5 @@
     - role: wp.mysql
     - role: wp.nginx
     - role: wp.wordpress
+
+...
