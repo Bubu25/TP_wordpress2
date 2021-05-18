@@ -6,9 +6,9 @@
 #PHP
     - name: Install Unzip package
       package:
-        name: Unzip
+        name: unzip
         state: present
-        
+
     - name: ADD the ondrej PHP PPA
       apt_repository:
         repo: 'ppa:ondrej/php'
