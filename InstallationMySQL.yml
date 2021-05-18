@@ -105,7 +105,7 @@
       get_url:
         url: https://wordpress.org/latest.zip
         dest: /tmp/wordpress.zip
-      checksum: "sha1:{{wp_checksum.content}}"
+        checksum: "sha1:{{wp_checksum.content}}"
 
 #handlers
   handlers:
